@@ -34,6 +34,11 @@
         </div>
     </div>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyDtxL2u7yJZBxrP1gS2jME4zJmxd-xxXyI"></script>
+    <script type="text/javascript">
+        document.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        }, false);
+    </script>
     <script>
         $(document).ready(function() {
             $("#lat_area").addClass("d-none");
